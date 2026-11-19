@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    { "name": "Streamlit UI", "type": "debugpy", "request": "launch", "module": "streamlit",
+      "args": ["run", "ui/streamlit_app.py"], "cwd": "${workspaceFolder}", "justMyCode": false },
+    { "name": "REST API (uvicorn)", "type": "debugpy", "request": "launch", "module": "uvicorn",
+      "args": ["app.api.main:app", "--reload"], "cwd": "${workspaceFolder}" },
+    { "name": "CLI demo", "type": "debugpy", "request": "launch", "program": "scripts/run_demo.py",
+      "cwd": "${workspaceFolder}", "console": "integratedTerminal" },
+    { "name": "LLM eval", "type": "debugpy", "request": "launch", "program": "scripts/run_eval.py",
+      "cwd": "${workspaceFolder}", "console": "integratedTerminal" }
+  ]
+}

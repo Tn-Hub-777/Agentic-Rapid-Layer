@@ -1,0 +1,9 @@
+[
+  {"text": "Make this strong but cheap.", "expected_goal": "strength_cost_balance", "expected_material": "PETG"},
+  {"text": "I want a smooth-looking miniature.", "expected_goal": "high_quality", "expected_material": "PLA", "max_layer_mm": 0.16},
+  {"text": "Cheapest possible functional prototype.", "expected_goal": "cheapest", "expected_material": "PLA", "max_infill": 20},
+  {"text": "It must be as strong as possible, it will carry load.", "expected_goal": "max_strength", "expected_material": "PETG", "min_infill": 50},
+  {"text": "I need a flexible phone bumper.", "expected_goal": "flexible", "expected_material": "TPU"},
+  {"text": "Low cost and durable please.", "expected_goal": "strength_cost_balance", "expected_material": "PETG"},
+  {"text": "Best detail for a display piece.", "expected_goal": "high_quality", "expected_material": "PLA"}
+]

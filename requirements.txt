@@ -1,0 +1,28 @@
+# --- agent framework (all free / open source) ---
+langchain>=1.5,<2
+langgraph>=1.2,<2
+deepagents>=0.7,<1
+langgraph-checkpoint-sqlite>=3.1
+
+# --- optional free LLM providers (install the one you use) ---
+langchain-ollama        # local models via Ollama (free)
+langchain-groq          # Groq free tier
+langchain-google-genai  # Gemini free tier
+
+# --- geometry / app ---
+trimesh>=4.0
+fast-simplification>=0.2.0
+numpy
+pydantic>=2.5
+fastapi
+uvicorn
+httpx
+python-multipart
+streamlit>=1.50
+plotly
+pandas
+
+# Exact versions this project was tested with: requirements-tested.txt
+
+# --- tests ---
+pytest
